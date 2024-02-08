@@ -6,7 +6,7 @@ Postaway is a feature-rich Social Networking Platform built using Express and No
 
 ## Overview of Functionality
 
-- *Project Architecture:** Follows a API based architecture. Each feature contains dedicated Model, Controller and Router script files for organized and scalable development.
+- \*Project Architecture:\*\* Follows a API based architecture. Each feature contains dedicated Model, Controller and Router script files for organized and scalable development.
 - **User Authentication:** Implements user sign-in and sign-up functionality with JSON Web Tokens (JWT).
 - **Post Management:** Provides endpoints for creating, updating, deleting, fetching posts and many other features.
 - **Like and Comment System:** Allows users to like and comment on posts.
@@ -24,19 +24,21 @@ Postaway is a feature-rich Social Networking Platform built using Express and No
 - **Search and Sort:** Provides functionality to filter and sort posts for a personalized experience.
 - **Archive:** Handles archiving and unarchiving posts.
 
-
 ## API Details
 
 ### Routes
 
 - **User Authentication:**
+
   - Sign In: `POST /api/signin`
   - Sign Up: `POST /api/signup`
- 
+
 - **Swagger UI:**
+
   - Swagger UI Url: `/api-docs/`
 
 - **Post Operations:**
+
   - Get All Posts: `GET /api/posts/all`
   - Get User Posts: `GET /api/posts/`
   - Create Post: `POST /api/posts/`
@@ -47,10 +49,12 @@ Postaway is a feature-rich Social Networking Platform built using Express and No
   - Sort Posts: `GET /api/posts/custom/sort`
 
 - **Like System:**
+
   - Get Post Likes: `GET /api/likes/{postId}`
   - Toggle Like: `GET /api/likes/toggle/{postId}`
 
 - **Comment System:**
+
   - Get Post Comments: `GET /api/comments/{postId}`
   - Add Comment: `POST /api/comments/{postId}`
   - Delete Comment: `DELETE /api/comments/{commentId}`
@@ -81,5 +85,5 @@ To run the project locally, follow these steps:
 ## Contact Information
 
 - **Author:** Kumud Kishor
-- **GitHub:** [gautamuniverse](https://github.com/kumudKishor1901)
-- **LinkedIn:** [Gautam](https://www.linkedin.com/in/kumud-kishor-374792285/)
+- **GitHub:** [Kumud Kishor](https://github.com/kumudKishor1901)
+- **LinkedIn:** [Kumud](https://www.linkedin.com/in/kumud-kishor-374792285/)
